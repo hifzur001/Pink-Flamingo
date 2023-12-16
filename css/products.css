@@ -1,0 +1,73 @@
+.breadcrumb-item + .breadcrumb-item.hurrey::before {
+    content: var(--bs-breadcrumb-divider, '>') !important;
+    padding: 0;
+    color: #c1c1c1;
+    margin: 0 2px;
+}
+.breadcrumb li a,
+.breadcrumb li {
+    color: #c1c1c1 !important;
+}
+.updated-dropdwon {
+    border-radius: 1.1875rem !important;
+    background: transparent;
+    color: #979797;
+    border: 2px solid #b7b7b7;
+}
+.btner .dropdown-toggle::after {
+    display: inline-block !important;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: '';
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.rating span {
+    color: #ffbb0e;
+}
+.rating span:last-child {
+    color: #000;
+}
+.custom-color {
+    color: #fa5c98;
+    font-size: 16px !important;
+    text-transform: uppercase;
+}
+.price-tag {
+    color: #c0590e;
+    font-size: 20px !important;
+}
+.animate-card img {
+    transition: all ease-in 0.5s;
+}
+.animate-card {
+    cursor: pointer !important;
+}
+.animate-card img:hover {
+    transform: scale(1.05) !important;
+}
+.rounded-circle {
+    width: 40px;
+    border-radius: 50% !important;
+    height: 40px;
+    background: linear-gradient(
+        90deg,
+        #dc8064 -11.11%,
+        #e98c70 6.02%,
+        #fb9e82 23.14%,
+        #fdbb9f 48.17%,
+        #ffcaae 63.98%,
+        #f8ad92 78.48%,
+        #f19176 95.6%
+    );
+
+    padding: 8px 17px;
+}
+.page-link:last-child {
+    border: none !important;
+    color: #e08468;
+}

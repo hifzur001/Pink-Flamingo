@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pink-Flamingo</title>
+
+        <!-- Latest Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Latest Font Awesome CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/products.css" />
+        <link rel="stylesheet" href="./css/responsive.css" />
+        <link rel="shortcut icon" href="./img/Logo/logo.png" type="image/x-icon" />
+
+        <style></style>
+    </head>
+
+    <body>
+        <!-- Notification Start -->
+        <div class="notification-bar text-black">
+            <span
+                class="fa fa-circle-xmark close-btn"
+                onclick="closeNotification()"
+            ></span>
+            <h4>QUICK BUY! Get up to 25% off on All Stones</h4>
+        </div>
+        <!-- Notification End -->
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/Logo/nav-logo.png" alt="" class="img-fluid" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="input-group">
+                        <button class="btn btn-primary deliver-btn">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span class="ml-auto">Deliver to 110094</span>
+                        </button>
+                        <input
+                            type="text"
+                            class="form-control search-input"
+                            placeholder="Search for medication & Wellness products.."
+                        />
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-2 position-relative">
+                            <a class="nav-link text-dark h5" href="#" target="_blank">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span
+                                    class="badge badge-danger position-absolute top-0 start-100 translate-middle"
+                                    >1</span
+                                >
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-dark h5" href="#" target="_blank">
+                                <div class="circle-background">
+                                    <i class="fa fa-user icon-white"></i>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="breadcrumb-item text-nowrap">
+                            <a
+                                class="nav-link text-dark h5"
+                                href="signin_url"
+                                target="_blank"
+                                >SIGN IN</a
+                            >
+                        </li>
+                        <li class="breadcrumb-item text-nowrap" aria-current="page">
+                            <a
+                                class="nav-link text-dark h5"
+                                href="signup_url"
+                                target="_blank"
+                                >SIGN UP</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Navbar for Hyperlinks Start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="mx-auto">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link sffrnt" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="dropdown-toggle sffrnt nav-link sffrt-active"
+                            href="#"
+                            role="button"
+                            id="dropdownMenuButton"
+                            data-mdb-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Products <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li>
+                                <a class="dropdown-item sffrnt sffrt-active" href="#">
+                                    Dhoop Cones <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-submenu">
+                                    <li>
+                                        <a
+                                            class="dropdown-item sffrnt"
+                                            href="./products.html"
+                                            >Jar Cones</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item sffrnt" href="#"
+                                            >Chandan Bamboo Dhoop</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item sffrnt" href="#"
+                                            >Backflow Cone Dhoop</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item sffrnt" href="#"
+                                            >Buddha Red Incense Cone</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item sffrnt" href="#"
+                                            >Mountain Sandal Dhoop</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item sffrnt" href="#"
+                                            >Cone Sandal Dhoop</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="dropdown-item sffrnt" href="#"
+                                    >Incense Holders</a
+                                >
+                            </li>
+                            <li><a class="dropdown-item sffrnt" href="#">Yantras</a></li>
+                            <li>
+                                <a class="dropdown-item sffrnt" href="#"
+                                    >Incense Sticks</a
+                                >
+                            </li>
+                            <li>
+                                <a class="dropdown-item sffrnt" href="#"
+                                    >Pooja Thali Sets</a
+                                >
+                            </li>
+                            <li><a class="dropdown-item sffrnt" href="#">Shankh</a></li>
+                            <li><a class="dropdown-item sffrnt" href="#">Kalash</a></li>
+                            <li>
+                                <a class="dropdown-item sffrnt" href="#">Book Rests</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="dropdown-toggle sffrnt nav-link"
+                            href="#"
+                            role="button"
+                            id="dropdownMenuButton"
+                            data-mdb-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Services <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li>
+                                <a class="dropdown-item sffrnt" href="#"
+                                    >Incense Holders</a
+                                >
+                            </li>
+                            <li><a class="dropdown-item sffrnt" href="#">Yantras</a></li>
+                            <li>
+                                <a class="dropdown-item sffrnt" href="#"
+                                    >Incense Sticks</a
+                                >
+                            </li>
+                            <li>
+                                <a class="dropdown-item sffrnt" href="#"
+                                    >Pooja Thali Sets</a
+                                >
+                            </li>
+                            <li><a class="dropdown-item sffrnt" href="#">Shankh</a></li>
+                            <li><a class="dropdown-item sffrnt" href="#">Kalash</a></li>
+                            <li>
+                                <a class="dropdown-item sffrnt" href="#">Book Rests</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link sffrnt" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link sffrnt" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link sffrnt" href="#">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link sffrnt" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar for Hyperlinks End -->
+        <!-- Breadcrumb Start -->
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item hurrey"><a href="#">Products</a></li>
+                    <li class="breadcrumb-item hurrey"><a href="#">Dhoop Cones</a></li>
+                    <li class="breadcrumb-item hurrey" aria-current="page">Jar Cones</li>
+                </ol>
+            </nav>
+        </div>
+        <!-- Breadcrumb End -->
+        <!-- Products Start -->
+        <div class="container mt-5 btner">
+            <div class="d-flex">
+                <!-- Price Dropdown -->
+                <div class="dropdown">
+                    <button
+                        class="btn btn-secondary dropdown-toggle updated-dropdwon my-2"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        Price ($)
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">50$</a>
+                        <a class="dropdown-item" href="#">150$</a>
+                        <a class="dropdown-item" href="#">500$</a>
+                        <a class="dropdown-item" href="#">800$</a>
+                        <a class="dropdown-item" href="#">1000$</a>
+                    </div>
+                </div>
+
+                <!-- Category Dropdown -->
+                <div class="dropdown mx-2">
+                    <button
+                        class="btn btn-secondary dropdown-toggle updated-dropdwon my-2"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        Category
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Jar Cones</a>
+                        <a class="dropdown-item" href="#">Chandan Bamboo Dhoop</a>
+                        <a class="dropdown-item" href="#">Backflow Cone Dhoop</a>
+                        <a class="dropdown-item" href="#">Buddha Red Incense Cone</a>
+                        <a class="dropdown-item" href="#">Mountain Sandal Dhoop</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-1.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">DHOOP INCENSE CONES</h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$19.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-2.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">HEM Incense</h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$19.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-3.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">Mystic Temple Incense</h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$19.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-4.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">SAC Incense</h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$19.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-5.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">
+                                Frankincense and Myrrh
+                            </h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$2.05</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-6.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">
+                                Eucalyptus INCENSE CONES
+                            </h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$1.05</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <a href="./lavender-dhoop.html">
+                            <img
+                                src="./img/Products/bg-7.jpg"
+                                class="card-img-top"
+                                alt="Card Image"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title custom-color">
+                                    Lavender INCENSE CONES
+                                </h5>
+                                <p class="card-text text-black">
+                                    4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                                </p>
+                                <div class="rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <p class="card-text price-tag my-2 fw-bold">$2.75</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-8.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">Sage INCENSE CONES</h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$5.05</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-9.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">
+                                Frankincense and Myrrh
+                            </h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$3.05</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-10.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">
+                                Eucalyptus INCENSE CONES
+                            </h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$10.05</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-11.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">
+                                Orange Blossom INCENSE CONES
+                            </h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$4.05</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-12.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">Musk INCENSE CONES</h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$0.75</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-13.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">Bergamot and Myrrh</h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$3.05</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-14.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">
+                                Gardenia INCENSE CONES
+                            </h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$10.05</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-15.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">
+                                Yerba Santa INCENSE CONES
+                            </h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$4.05</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-sm-6 col-md-4">
+                    <div class="card border-0 animate-card">
+                        <img
+                            src="./img/Products/bg-16.jpg"
+                            class="card-img-top"
+                            alt="Card Image"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title custom-color">Sage INCENSE CONES</h5>
+                            <p class="card-text">
+                                4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use
+                            </p>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <p class="card-text price-tag my-2 fw-bold">$0.75</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <!-- Page Numbers -->
+                    <li class="page-item active" aria-current="page">
+                        <span class="page-link rounded-circle text-white">1</span>
+                    </li>
+                    <li class="page-item">
+                        <a class="text-black page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="text-black page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="text-black page-link" href="#">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="text-black page-link" href="#">5</a>
+                    </li>
+
+                    <!-- Next Page Button -->
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Products End -->
+
+        <!-- footer Start -->
+        <footer class="footer-start text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="m-5 d-none d-lg-block">
+                            <i class="fa fa-envelope sign-upp mx-2"></i
+                            ><span class="sign-upp">Sign Up To Shop Now</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="m-5 custom-input-group">
+                            <input
+                                type="email"
+                                class="form-control inside-btn"
+                                placeholder="Enter your email"
+                                aria-label="Enter your email"
+                                aria-describedby="subscribeButton"
+                            />
+                            <button
+                                class="btn btn-primary subscribe-btn"
+                                type="button"
+                                id="subscribeButton"
+                            >
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright"></div>
+            <div class="container">
+                <div class="row mt-4 custom-row">
+                    <div class="col-md-2 custom-col">
+                        <h4 class="text-left">Contact</h4>
+                        <ul class="list-unstyled text-left">
+                            <li><a href="#">Demo Store</a></li>
+                            <li><a href="#">No. 1258 Utawala, Nairobi, 01010</a></li>
+                            <li><a href="#">Kenya</a></li>
+                            <li><a href="tel:+25470101010">+25470101010</a></li>
+                            <li>
+                                <a href="mailto:example@gmail.com">example@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2 custom-col">
+                        <h4 class="text-left">Information</h4>
+                        <ul class="list-unstyled text-left">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Shipping Policy</a></li>
+                            <li><a href="#">Terms Of Service</a></li>
+                            <li><a href="#">Blogs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2 custom-col">
+                        <h4 class="text-left">Accounts</h4>
+                        <ul class="list-unstyled text-left">
+                            <li><a href="#">Search</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2 custom-col">
+                        <h4 class="text-left">Quick Links</h4>
+                        <ul class="list-unstyled text-left">
+                            <li><a href="#">Incense Sticks</a></li>
+                            <li><a href="#">Shankh</a></li>
+                            <li><a href="#">Kalash</a></li>
+                            <li><a href="#">Incense Holders</a></li>
+                            <li><a href="#">Cone Dhoop</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 custom-col">
+                        <h4>Social Media.</h4>
+                        <p>Follow us on social media and stay updated.</p>
+
+                        <div class="social-icons">
+                            <a href="https://twitter.com" target="_blank"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a href="https://facebook.com" target="_blank"
+                                ><i class="fab fa-facebook"></i
+                            ></a>
+                            <a href="https://instagram.com" target="_blank"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a href="https://youtube.com" target="_blank"
+                                ><i class="fab fa-youtube"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer End -->
+        <!-- Latest Bootstrap JS and Popper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>

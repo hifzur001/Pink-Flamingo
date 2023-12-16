@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Axiforma, sans-serif !important;
+}
+
+.notification-bar {
+    background: url(../img/Announcement/vector.jpg) no-repeat center top/cover; /* Example background color for the notification bar */
+    padding: 10px;
+    text-align: center;
+}
+
+.notification-bar h4 {
+    margin: 0;
+}
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav a {
+    color: white;
+    margin: 0 10px;
+}
+.input-group {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.form-control {
+    border-radius: 0 6px 6px 0 !important;
+    border: 1px solid #fa5c98;
+}
+
+.deliver-btn {
+    background: #fa5c98;
+    border: 0;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    padding: 5px 0;
+}
+.circle-background {
+    background-color: #fa5c98;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-white {
+    font-size: 12px;
+    color: white;
+}
+.sffrnt {
+    color: #301f4a !important;
+    font-size: 16px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background: transparent;
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+/* Add your custom styles here */
+.custom-nested-dropdown {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    min-width: 200px;
+    z-index: 1000;
+}
+
+.nav-item.custom-dropdown:hover .custom-nested-dropdown {
+    display: block;
+}
+.dropdown-menu li {
+    position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+.dropdown-menu .dropdown-submenu {
+    margin: 0 5px !important;
+}
+.sffrt-active {
+    color: #fa5c98 !important;
+}
+.soul {
+    font-size: 35px;
+}
+.sould-bg {
+    background: #ffeef6;
+    height: 385px;
+}
+.shop-products img {
+    transition: transform ease-in 1s;
+    cursor: pointer;
+}
+
+.shop-products img:hover {
+    transform: matrix3d(-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+.shop-products a {
+    color: #fa5c98;
+}
+.why-pink {
+    font-size: 2.87rem;
+}
+.pink-flamingo {
+    background: #fff2f8;
+    padding: 25px;
+}
+.yuytu {
+    mix-blend-mode: darken !important;
+}
+.spritusl {
+    padding: 5px;
+}
+.flexible {
+    margin: inherit;
+}
+
+/* Add your custom styles here */
+.owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.latest {
+    font-size: 45.5px !important;
+    padding: 15px;
+}
+.blogs-btn {
+    border-radius: 0.4375rem;
+    background: linear-gradient(
+        90deg,
+        #dc8064 -11.11%,
+        #e98c70 6.02%,
+        #fb9e82 23.14%,
+        #fdbb9f 48.17%,
+        #ffcaae 63.98%,
+        #f8ad92 78.48%,
+        #f19176 95.6%
+    );
+    border: none;
+}
+.blogs-card {
+    box-shadow: 0px 4px 13px 0px rgba(190, 190, 190, 0.2);
+}
+.lets-connect {
+    font-size: 45.6px;
+}
+.form-grow {
+    border: none;
+}
+.input-group-text {
+    background: transparent;
+    border: none;
+}
+.input-group-prepend {
+    padding: 3px;
+}
+.fiona-card {
+    box-shadow: 0px 4px 13px 0px rgba(190, 190, 190, 0.2);
+}
+.sign-upp {
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+.footer-start {
+    background: #fa5c98;
+}
+.custom-input-group {
+    display: flex;
+    align-items: stretch;
+}
+
+.custom-input-group input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.inside-btn {
+    border-radius: 6px !important;
+    height: 50px;
+}
+.subscribe-btn {
+    border-radius: 0.3125rem;
+    background: #fa5c98;
+    border: none;
+    position: absolute;
+    right: 165px;
+    margin: 7px;
+}
+.copyright {
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 8px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF54;
+    border: 2px solid #FFFFFF47;
+    color: #fff;
+    padding: 10px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #555;
+}
+a{
+    text-decoration: none !important;
+}
+.footer-start a{
+    color: #fff !important;
+}
+::placeholder{
+    color: #301F4A35 !important;
+}
+
+/* ---------------------------------------- */
+

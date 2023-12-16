@@ -1,0 +1,144 @@
+.lavenderrr {
+    background: #fff2f8 !important;
+}
+.frdt {
+    width: 70%;
+    margin: auto;
+}
+.pro-card {
+    width: 200px;
+    height: 200px;
+}
+.breadcrumb-item + .breadcrumb-item.hurrey::before {
+    content: var(--bs-breadcrumb-divider, '>') !important;
+    padding: 0;
+    color: #c1c1c1 !important;
+    margin: 0 2px;
+}
+.breadcrumb li a,
+.breadcrumb li {
+    color: #c1c1c1 !important;
+}
+.head-lave {
+    font-size: 21.43px;
+    text-transform: uppercase;
+}
+.rating span {
+    color: #ffbb0e;
+}
+.rating span:last-child {
+    color: #000;
+}
+.lav-rpice {
+    color: #191919;
+    font-size: 21.43px;
+}
+.lav-rpicew {
+    font-size: 16px;
+    color: #d9d9d9;
+}
+.input-number {
+    border-radius: 0px !important;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    font-size: 21.43px;
+}
+.input-group {
+    background: transparent !important;
+    color: #1f1f1f !important;
+}
+.btn-number {
+    border: 1px solid #f0f0f0;
+    border-radius: 0px !important;
+    font-size: 21px;
+}
+.buy-now {
+    border-radius: 0.4375rem;
+    width: 135px;
+    height: 40px;
+    background: linear-gradient(
+        90deg,
+        #dc8064 -11.11%,
+        #e98c70 6.02%,
+        #fb9e82 23.14%,
+        #fdbb9f 48.17%,
+        #ffcaae 63.98%,
+        #f8ad92 78.48%,
+        #f19176 95.6%
+    );
+}
+.add-to-cart {
+    background: transparent;
+    border-radius: 0.4375rem;
+    background: var(
+        --Golden,
+        linear-gradient(
+            90deg,
+            #dc8064 -11.11%,
+            #e98c70 6.02%,
+            #fb9e82 23.14%,
+            #fdbb9f 48.17%,
+            #ffcaae 63.98%,
+            #f8ad92 78.48%,
+            #f19176 95.6%
+        )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid var(--Golden, #dc8064);
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-color: transparent;
+}
+.fa-heart {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    color: #d7d7d7;
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid #d7d7d7;
+}
+.hoter {
+    width: 55px;
+    text-align: center;
+    color: #fff;
+    border-radius: 12px;
+    padding: 0 8px;
+    background: aliceblue;
+}
+.add-to-cart-btn {
+    border-radius: 0.4375rem;
+    background: linear-gradient(
+        90deg,
+        #dc8064 -11.11%,
+        #e98c70 6.02%,
+        #fb9e82 23.14%,
+        #fdbb9f 48.17%,
+        #ffcaae 63.98%,
+        #f8ad92 78.48%,
+        #f19176 95.6%
+    );
+    border: none;
+}
+.musk {
+    color: #fa5c98;
+    font-size: 1rem;
+    margin-top: 1em;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.price {
+    color: #e28569;
+    font-size: 1.125rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
