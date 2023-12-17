@@ -34,11 +34,23 @@
         right: 60px;
     }
 }
-@media screen and (min-width: 767px) {
+/* @media screen and (min-width: 767px) {
     .subscribe-btn {
         right: 165px;
     }
+} */
+
+@media (max-width: 600px) {
+    .custom-button {
+        position: relative;
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+        margin: 10px 0;
+        background-color: transparent;
+        border: 2px solid #fa5c98;
+    }
 }
+
 .custom-row {
     display: flex;
     justify-content: space-between;
@@ -61,4 +73,18 @@
         text-align: center;
     }
 }
-
+@media only screen and (max-width: 600px) {
+    /* Styles for screens up to 767px wide (typically mobile devices) */
+    .huehue {
+        padding: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-group {
+        width: 145px;
+    }
+    .addired{
+        margin-top: 10px;
+    }
+}

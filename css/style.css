@@ -127,6 +127,9 @@ body {
 .sould-bg {
     background: #ffeef6;
     height: 385px;
+    margin-top: 11em;
+    text-align: center;
+    padding: 25px;
 }
 .shop-products img {
     transition: transform ease-in 1s;
@@ -221,13 +224,29 @@ body {
     border-radius: 6px !important;
     height: 50px;
 }
-.subscribe-btn {
-    border-radius: 0.3125rem;
-    background: #fa5c98;
-    border: none;
+.custom-container {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+}
+
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.custom-button {
     position: absolute;
-    right: 165px;
-    margin: 7px;
+    top: 2px;
+    right: 3px;
+    padding: 8px;
+    background-color: #fa5c98;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .copyright {
     border-top: 1px solid rgb(255, 255, 255);
@@ -243,8 +262,8 @@ body {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #FFFFFF54;
-    border: 2px solid #FFFFFF47;
+    background-color: #ffffff54;
+    border: 2px solid #ffffff47;
     color: #fff;
     padding: 10px 12px;
     transition: background-color 0.3s ease;
@@ -253,15 +272,14 @@ body {
 .social-icons a:hover {
     background-color: #555;
 }
-a{
+a {
     text-decoration: none !important;
 }
-.footer-start a{
+.footer-start a {
     color: #fff !important;
 }
-::placeholder{
-    color: #301F4A35 !important;
+::placeholder {
+    color: #301f4a35 !important;
 }
 
 /* ---------------------------------------- */
-
